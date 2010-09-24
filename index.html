@@ -1,14 +1,72 @@
 <!doctype html>
 <html lang='en'>
 <head>
-<meta charset='utf-8' />
-<title>Smartgraphs</title>
+  
+  <meta charset='utf-8' />
+  <title>Smartgraphs</title>
+  
+  <style type='text/css'>
+
+    body {
+      background: #FEE9AA url(bg-body.png) repeat-x 0% 0%;
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #page {
+      background: transparent url(http://drupal-dev.concord.org/sites/all/themes/cc/img/css/bg-top.png) no-repeat 50% 0%;
+      min-width: 960px;
+    }
+    
+    #wrapper {
+      margin: auto;
+      position: relative;
+      width: 960px;
+    }
+    
+    #header {
+      background: transparent;
+      height: 179px;
+      margin-bottom: 0px;      
+    }
+    
+    #brand {
+      background: transparent url(bg-top.png) no-repeat -129px -15px;
+      display: block;
+      float: left;
+      height: 160px;
+      left: 10px;
+      position: relative;
+      top: 15px;
+      width: 170px;
+      text-indent: -9999em;
+    }
+    
+    #content {
+      clear: left;
+      margin: 0 auto;
+      width: 922px;
+      height: 500px;
+    }
+
+  </style>
 </head>
 <body>
   
-  <h1>Welcome to Smartgraphs</h1>
-  
-  <a href="app.html">Try it</a>
+  <div id='page'>
+    <div id='wrapper'>
+      <div id='header'>
+        <a id='brand' href='http://www.concord.org/'>Concord Consortium</a>
+      </div>
+      <div id='content'>
+        
+        <h1>Hey! Here we are!</h1>
+        <p>See? The more you push down, the less the header is cut off</p>
+        
+      </div>
+    </div>
+  </div>
   
 </body>
 </html>
